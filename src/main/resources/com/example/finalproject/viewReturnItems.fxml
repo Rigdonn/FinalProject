@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="300.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.finalproject.ViewReturnItems">
+   <children>
+      <Label layoutX="181.0" layoutY="61.0" text="Search for item">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfReturnItemItemID" layoutX="170.0" layoutY="93.0" promptText="Item ID" />
+      <Button fx:id="btReturnItemConfirm" layoutX="279.0" layoutY="124.0" mnemonicParsing="false" text="Confirm" />
+      <Button fx:id="btReturnItemBack" layoutX="161.0" layoutY="124.0" mnemonicParsing="false" text="Back" />
+   </children>
+</AnchorPane>

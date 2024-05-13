@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="300.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.finalproject.View1">
+   <children>
+      <Label layoutX="172.0" layoutY="41.0" text="What do you need?">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonView1ReportObject" layoutX="192.0" layoutY="80.0" mnemonicParsing="false" text="Report lost objects" />
+      <Button fx:id="buttonView1SearchItem" layoutX="199.0" layoutY="126.0" mnemonicParsing="false" text="Search for items" />
+      <Button fx:id="buttonView1ManageAcc" layoutX="195.0" layoutY="170.0" mnemonicParsing="false" text="Manage accounts" />
+      <Button fx:id="buttonView1ReturnItem" layoutX="208.0" layoutY="216.0" mnemonicParsing="false" text="Return items" />
+   </children>
+</AnchorPane>

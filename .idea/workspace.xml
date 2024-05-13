@@ -4,15 +4,61 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40cf91a3-8429-410f-a7fa-29e6cce5db73" name="Changes" comment="" />
+    <list default="true" id="40cf91a3-8429-410f-a7fa-29e6cce5db73" name="Changes" comment="first commit init repository">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ProjectClasses/Administrator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ProjectClasses/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ProjectClasses/Items.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ProjectClasses/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ProjectClasses/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/View1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/ViewDeliverItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/ViewManageAccounts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/ViewRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/ViewReportLostObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/ViewReturnItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/ViewReturnItems2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/ViewSearchForItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/finalproject/view1.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/finalproject/viewDeliverItems.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/finalproject/viewManageAccounts.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/finalproject/viewRegister.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/finalproject/viewReportLostObject.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/finalproject/viewReturnItems.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/finalproject/viewReturnItems2.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/finalproject/viewSearchForItems.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/finalproject/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/finalproject/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/finalproject/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/finalproject/main.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Rigdonn&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Rigdonn/FinalProject&quot;,
+    &quot;accountId&quot;: &quot;0af9d095-87ef-4fd2-88e2-d6e528426dae&quot;
+  }
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -20,9 +66,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2gDnai73jFRIr4OuCFz1fVQmjHO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -31,9 +77,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.HelloApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/JavaIntelliJ/ProyectoFinalJavaFX/FinalProject/src/main/java/com/example/finalproject"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -45,6 +93,19 @@
       <option name="presentableId" value="Default" />
       <updated>1715241083413</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit init repository">
+      <option name="closed" value="true" />
+      <created>1715241172280</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715241172280</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit init repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit init repository" />
   </component>
 </project>

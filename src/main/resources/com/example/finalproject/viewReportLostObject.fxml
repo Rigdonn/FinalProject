@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="300.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.finalproject.ViewReportLostObject">
+   <children>
+      <Label layoutX="163.0" layoutY="45.0" text="Add new lost object">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfReportLObjectID" layoutX="172.0" layoutY="89.0" promptText="ID" />
+      <TextField fx:id="tfReportLObjectName" layoutX="172.0" layoutY="145.0" promptText="Name" />
+      <TextField fx:id="tfReportLObjectDate" layoutX="172.0" layoutY="204.0" promptText="Date" />
+      <Button fx:id="btReportLObjectConfirm" layoutX="350.0" layoutY="230.0" mnemonicParsing="false" text="Confirm" />
+      <Button fx:id="btReportLObjectBack" layoutX="91.0" layoutY="230.0" mnemonicParsing="false" text="Back" />
+   </children>
+</AnchorPane>
