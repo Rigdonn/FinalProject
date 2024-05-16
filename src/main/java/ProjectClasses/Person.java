@@ -54,6 +54,10 @@ public abstract class Person {
     public void setID(String ID) {
         this.ID = ID;
     }
+
+    public void logIn(){
+
+    }
     @Override
     public String toString() {
         return "User{" +
@@ -63,5 +67,7 @@ public abstract class Person {
                 ", email='" + email + '\'' +
                 '}';
     }
+
+
 
 }

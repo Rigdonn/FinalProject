@@ -25,4 +25,8 @@ public class Inventory {
     public void setInventory(ArrayList<Items> inventory) {
         this.inventory = inventory;
     }
+
+    public void searchItems(){
+        
+    }
 }

@@ -4,32 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40cf91a3-8429-410f-a7fa-29e6cce5db73" name="Changes" comment="first commit init repository">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ProjectClasses/Administrator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ProjectClasses/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ProjectClasses/Items.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ProjectClasses/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ProjectClasses/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/View1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/ViewDeliverItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/ViewManageAccounts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/ViewRegister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/ViewReportLostObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/ViewReturnItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/ViewReturnItems2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/ViewSearchForItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/finalproject/view1.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/finalproject/viewDeliverItems.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/finalproject/viewManageAccounts.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/finalproject/viewRegister.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/finalproject/viewReportLostObject.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/finalproject/viewReturnItems.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/finalproject/viewReturnItems2.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/finalproject/viewSearchForItems.fxml" afterDir="false" />
+    <list default="true" id="40cf91a3-8429-410f-a7fa-29e6cce5db73" name="Changes" comment="second commit, project implementation, fmxl done, javadoc done, need to improve the ViewManageAccounts.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/finalproject/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/finalproject/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/finalproject/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/finalproject/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/finalproject/main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProjectClasses/Administrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProjectClasses/Administrator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProjectClasses/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProjectClasses/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProjectClasses/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProjectClasses/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProjectClasses/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProjectClasses/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,15 +55,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.HelloApplication.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/JavaIntelliJ/ProyectoFinalJavaFX/FinalProject/src/main/java/com/example/finalproject"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/JavaIntelliJ/ProyectoFinalJavaFX/FinalProject/src/main/java/com/example/finalproject&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -101,11 +81,28 @@
       <option name="project" value="LOCAL" />
       <updated>1715241172280</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="second commit, project implementation, fmxl done, javadoc done, need to improve the ViewManageAccounts.">
+      <option name="closed" value="true" />
+      <created>1715624149268</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715624149268</updated>
+    </task>
+    <task id="LOCAL-00003" summary="second commit, project implementation, fmxl done, javadoc done, need to improve the ViewManageAccounts.">
+      <option name="closed" value="true" />
+      <created>1715624190765</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715624190765</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit init repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit init repository" />
+    <MESSAGE value="second commit, project implementation, fmxl done, javadoc done, need to improve the ViewManageAccounts." />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit, project implementation, fmxl done, javadoc done, need to improve the ViewManageAccounts." />
   </component>
 </project>

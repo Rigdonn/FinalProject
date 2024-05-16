@@ -23,6 +23,10 @@ public class User extends Person{
     public void setAddres(String addres) {
         this.addres = addres;
     }
+
+    public void reportLostObject(){
+
+    }
     @Override
     public String toString() {
         return "User{" +
@@ -33,4 +37,6 @@ public class User extends Person{
                 ", email='" + email + '\'' +
                 '}';
     }
+
+
 }

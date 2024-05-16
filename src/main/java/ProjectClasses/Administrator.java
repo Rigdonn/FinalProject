@@ -19,6 +19,19 @@ public class Administrator extends Person {
         super(ID, name, phoneNumber, email);
     }
 
+    public void deleteItems(){
+
+    }
+    public void manageAccounts(){
+
+    }
+    public void returnItems(){
+
+    }
+    public void sendNotification(){
+
+    }
+
     @Override
     public String toString() {
         return "Administrator{" +
