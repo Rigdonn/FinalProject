@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40cf91a3-8429-410f-a7fa-29e6cce5db73" name="Changes" comment="commit 4. All buttons working perfectly. image should show but it doesnt...">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="40cf91a3-8429-410f-a7fa-29e6cce5db73" name="Changes" comment="commit 4. All buttons working perfectly. image should show but it doesnt..." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,20 +49,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.App.executor": "Run",
-    "Application.HelloApplication.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/JavaIntelliJ/ProyectoFinalJavaFX/FinalProject/src/main/java/com/example/finalproject",
-    "last_opened_file_path": "C:/JavaIntelliJ/ProyectoFinalJavaFX/FinalProject",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/JavaIntelliJ/ProyectoFinalJavaFX/FinalProject/src/main/java/com/example/finalproject&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/JavaIntelliJ/ProyectoFinalJavaFX/FinalProject&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\JavaIntelliJ\ProyectoFinalJavaFX\FinalProject\src\img" />
@@ -151,7 +149,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716745296337</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="commit 4. All buttons working perfectly. image should show but it doesnt...">
+      <option name="closed" value="true" />
+      <created>1716745355564</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1716745355564</updated>
+    </task>
+    <task id="LOCAL-00011" summary="commit 4. All buttons working perfectly. image should show but it doesnt...">
+      <option name="closed" value="true" />
+      <created>1716745597605</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1716745597605</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
