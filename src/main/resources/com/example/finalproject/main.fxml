@@ -1,17 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
 
-<VBox alignment="CENTER" prefHeight="400.0" prefWidth="500.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.finalproject.main">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-    </padding>
-
-    <Label fx:id="welcomeText" text="Welcome" />
-   <TextField fx:id="tfMainUser" promptText="User" />
-   <TextField fx:id="tfMainPassword" layoutX="30.0" layoutY="118.0" promptText="Password" />
-    <Button fx:id="btMainLogin" onAction="#onHelloButtonClick" text="Login" />
-   <Button fx:id="btMainRegister" layoutX="146.0" layoutY="186.0" onAction="#onHelloButtonClick" text="Register" underline="true" />
-</VBox>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="500.0" style="-fx-background-color: #96BFFF;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.finalproject.main">
+   <left>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="25.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../img/logoJavaFX.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="300.0" prefWidth="313.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="107.0" fitWidth="104.0" layoutX="134.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../img/logoLogin.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="26.0" layoutY="137.0" text="Username" textFill="#000aff">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="28.0" layoutY="176.0" text="Password" textFill="#000aff">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <TextField fx:id="username" layoutX="110.0" layoutY="137.0" promptText="Username" />
+            <PasswordField fx:id="password" layoutX="111.0" layoutY="176.0" promptText="Password" />
+            <Button fx:id="buttonLogIn" layoutX="201.0" layoutY="219.0" mnemonicParsing="false" onAction="#userLogin" style="-fx-background-color: #68BFFF;" text="Log In">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Label fx:id="wrongLogin" layoutX="122.0" layoutY="118.0" textAlignment="CENTER" textFill="RED" />
+            <Button fx:id="buttonRegister" layoutX="110.0" layoutY="221.0" mnemonicParsing="false" onAction="#userRegister" style="-fx-background-color: #68BFFF;" text="Register" underline="true" />
+         </children></AnchorPane>
+   </right>
+</BorderPane>

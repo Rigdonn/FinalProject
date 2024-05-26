@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="300.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.finalproject.ViewReturnItems">
+<AnchorPane prefHeight="300.0" prefWidth="500.0" style="-fx-background-color: #96BFFF;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.finalproject.ViewReturnItems">
    <children>
       <Label layoutX="181.0" layoutY="61.0" text="Search for item">
          <font>
@@ -12,7 +14,8 @@
          </font>
       </Label>
       <TextField fx:id="tfReturnItemItemID" layoutX="170.0" layoutY="93.0" promptText="Item ID" />
-      <Button fx:id="btReturnItemConfirm" layoutX="279.0" layoutY="124.0" mnemonicParsing="false" text="Confirm" />
-      <Button fx:id="btReturnItemBack" layoutX="161.0" layoutY="124.0" mnemonicParsing="false" text="Back" />
+      <Button fx:id="btReturnItemConfirm" layoutX="279.0" layoutY="124.0" mnemonicParsing="false" onAction="#confirmSearch" style="-fx-background-color: #68BFFF;" text="Confirm" />
+      <Button fx:id="btReturnItemBack" layoutX="161.0" layoutY="124.0" mnemonicParsing="false" onAction="#backReturnItems" style="-fx-background-color: #68BFFF;" text="Back" />
+      <Label fx:id="searchItemConfirm" layoutX="194.0" layoutY="163.0" textFill="RED" />
    </children>
 </AnchorPane>
