@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40cf91a3-8429-410f-a7fa-29e6cce5db73" name="Changes" comment="commit for images. now working">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/finalproject/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/finalproject/main.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="40cf91a3-8429-410f-a7fa-29e6cce5db73" name="Changes" comment="commit for images. now working" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -176,7 +173,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716745654019</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="commit for images. now working">
+      <option name="closed" value="true" />
+      <created>1716746824897</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1716746824897</updated>
+    </task>
+    <task id="LOCAL-00014" summary="commit for images. now working">
+      <option name="closed" value="true" />
+      <created>1716746839720</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1716746839720</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
