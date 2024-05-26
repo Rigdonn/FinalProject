@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="300.0" prefWidth="500.0" style="-fx-background-color: #96BFFF;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.finalproject.ViewReportLostObject">
+   <children>
+      <Label layoutX="163.0" layoutY="45.0" text="Add new lost object">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfReportLObjectID" layoutX="172.0" layoutY="89.0" promptText="ID" />
+      <TextField fx:id="tfReportLObjectName" layoutX="172.0" layoutY="145.0" promptText="Name" />
+      <TextField fx:id="tfReportLObjectDate" layoutX="172.0" layoutY="204.0" promptText="Date" />
+      <Button fx:id="btReportLObjectConfirm" layoutX="350.0" layoutY="230.0" mnemonicParsing="false" onAction="#confirmReportLostObject" style="-fx-background-color: #68BFFF;" text="Confirm" />
+      <Button fx:id="btReportLObjectBack" layoutX="91.0" layoutY="230.0" mnemonicParsing="false" onAction="#backReportLostObject" style="-fx-background-color: #68BFFF;" text="Back" />
+      <Label fx:id="newObjectConfirm" layoutX="231.0" layoutY="247.0" textAlignment="CENTER" textFill="RED" />
+   </children>
+</AnchorPane>
